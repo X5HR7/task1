@@ -1,0 +1,28 @@
+.form__input {
+  margin: 0;
+  padding: 0 0 10px 0;
+  width: 100%;
+  border: none;
+  border-bottom: 1px solid #424242;
+  color: #000;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  background-color: rgba(0, 0, 0, 0);
+  transition: border-bottom-color .3s;
+}
+
+.form__input:focus {
+  outline: none;
+  border-bottom-color: #4285F4;
+  transition: border-bottom-color .3s;
+}
+
+.form__input_type_email {
+  font-weight: 500;
+}
+
+.form__input_error {
+  color: #EE3465;
+}

@@ -1,0 +1,5 @@
+@import "./assets/fonts/fonts.css";
+
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}

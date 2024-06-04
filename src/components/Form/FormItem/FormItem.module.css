@@ -1,0 +1,32 @@
+.form__input-group {
+  margin: 0 0 6px 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.form__input-group:last-of-type {
+  margin-bottom: 0;
+}
+
+.form__input-title {
+  margin: 0 0 7px 0;
+  padding: 0;
+  color: rgba(28, 28, 28, 0.89);
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.form__input-field {
+  margin: 5px 0 0 0;
+  padding: 0;
+  width: 100%;
+  min-height: 26px;
+  color: #EE3465;
+  font-size: 10px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
